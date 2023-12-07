@@ -30,6 +30,9 @@ body{
   text-align: center;
   color: white;
   font-family: var(--font-general);
+  position: relative;
+  left: 0;
+  top: 0;
 }
 .card__title{
   font-size: 0.8rem;
@@ -51,7 +54,7 @@ body{
   background-color: #53FFAA;
   border-radius: 50%;
   position: absolute;
-  bottom: 205px;
+  bottom: -35px;
   transition: all 0.2s;
 }
 .card__button:hover{
@@ -66,7 +69,7 @@ body{
     height: 500px;
   }
   .card__button{
-    bottom: 120px;
+    bottom: 0px;
   }
   #line{
     width: 100%;
